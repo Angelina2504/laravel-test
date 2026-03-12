@@ -23,8 +23,6 @@
             <span class="text-xs text-gray-500 font-normal">/ nuit</span>
         </div>
 
-        <x-primary-button>
-        Réserver
-        </x-primary-button>
+        <livewire:booking-manager />
     </div>
 </div>
