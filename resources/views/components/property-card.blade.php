@@ -23,6 +23,6 @@
             <span class="text-xs text-gray-500 font-normal">/ nuit</span>
         </div>
 
-        <livewire:booking-manager />
+        <livewire:booking-manager :property-id="$property->id" />
     </div>
 </div>
