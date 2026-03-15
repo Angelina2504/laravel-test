@@ -21,6 +21,7 @@ $reserve = function () {
         'property_id' => $this->property_id,
         'start_date'  => $this->start_date,
         'end_date'    => $this->end_date,
+        'note' =>$this->note,
     ]);
 
     $this->isReserved = true;
