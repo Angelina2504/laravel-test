@@ -10,7 +10,8 @@ class Booking extends Model
         'user_id',
         'property_id',
         'start_date',
-        'end_date'
+        'end_date',
+        'note',
     ];
 
      public function property()
