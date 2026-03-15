@@ -38,6 +38,10 @@ class BookingsTable
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
+                TextColumn::make('note')
+                    ->label('note')
+                    ->default('Aucune note')
+                    ->wrap(),
             ])
             ->filters([
                 //

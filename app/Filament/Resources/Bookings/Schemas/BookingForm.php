@@ -7,6 +7,7 @@ use App\Models\User;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Select;
 use Filament\Schemas\Schema;
+use Filament\Forms\Components\Textarea;
 
 class BookingForm
 {
@@ -30,6 +31,9 @@ class BookingForm
                 DatePicker::make('end_date')
                     ->label('Date de fin')
                     ->required(),
+                Textarea::make('note')
+                    ->label('note')
+                    ->nullable(),
             ]);
     }
 }
