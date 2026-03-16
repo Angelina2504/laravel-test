@@ -27,5 +27,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@example.com',
             'is_admin'=> true,
         ]);
+
+        $this->call(PropertySeeder::class);
     }
 }
