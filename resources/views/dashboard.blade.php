@@ -21,7 +21,9 @@
                 @endforelse
 
             </div>
-
+            <div class="mt-8">
+                <livewire:bookings-user />
+            </div>
         </div>
     </div>
 </x-app-layout>
