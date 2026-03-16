@@ -55,7 +55,7 @@ password
 - Panel admin sur `/admin` accessible uniquement aux administrateurs
 - Gestion des propriétés et réservations (CRUD) via Filament
 
-## V.2 possible
+## Limites
 
 - Landing page (login > dashboard), on pourrait imaginer une page qui présente les réservations et un bouton Connexion/Inscription
 - Contrôle de surface (validation logique de formulaires, dates, champs obligatoires ou boutons désactivés)
