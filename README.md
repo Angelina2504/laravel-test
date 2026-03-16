@@ -54,3 +54,13 @@ password
 - Réservation d'un bien avec dates et note via un composant Livewire
 - Panel admin sur `/admin` accessible uniquement aux administrateurs
 - Gestion des propriétés et réservations (CRUD) via Filament
+
+## V.2 possible
+
+- Landing page (login > dashboard), on pourrait imaginer une page qui présente les réservations et un bouton Connexion/Inscription
+- Contrôle de surface (validation logique de formulaires, dates, champs obligatoires ou boutons désactivés)
+- Validation sur les chevauchements de réservations (D1 -> D2, puis D3 -> D4 où D3 < D2)
+- Confirmation de suppression d’une réservation (user), comme c’est fait côté admin avec Filament
+- Style CSS Breeze par défaut, manque de personnalisation via TailwindCSS en V.1
+- Détection d’une propriété déjà réservée
+- Tests unitaires
