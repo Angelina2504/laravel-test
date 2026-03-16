@@ -21,7 +21,7 @@ $reserve = function () {
         'property_id' => $this->property_id,
         'start_date'  => $this->start_date,
         'end_date'    => $this->end_date,
-        'note' =>$this->note,
+        'note'        => $this->note,
     ]);
 
     $this->isReserved = true;
@@ -63,6 +63,6 @@ $reserve = function () {
         Réserver maintenant
     </x-primary-button>
     @else
-    <p class="text-sm text-green-600 font-semibold text-center"> Réservation confirmer </p>
+    <p class="text-sm text-green-600 font-semibold text-center"> Réservation confirmée </p>
     @endif
 </div>

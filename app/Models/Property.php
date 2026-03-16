@@ -12,7 +12,7 @@ class Property extends Model
         'price_per_night',
     ];
     
-    public function Booking()
+    public function bookings()
     {
         return $this->hasMany(Booking::class);
     }
